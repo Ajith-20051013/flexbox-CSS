@@ -1,0 +1,139 @@
+
+/* Body bg color adding */
+body{
+    background-color: rgb(210, 204, 204);
+    width:100%;
+    margin: auto;
+    align-items: center;
+}
+
+
+/* Styling for whole Container */
+.container{
+   
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 40px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin-top: 65px;   
+}
+
+.card{
+    background-color: white;
+    box-shadow: 8px 8px 8px 0px grey;
+    width:30%;
+    border-radius: 30px;
+
+}
+
+/* Styling for the upper photo */
+.pic{
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+
+/* Styling for body content */
+.card-body{
+    padding:13px;
+    justify-content:center;
+}
+
+
+/* Styling for the popular text  and under placed text*/
+.tag-purple{
+    background-color: rgb(74, 74, 195);
+
+    border-radius: 9px;
+    padding: 2px;
+    margin-left: 20px;
+
+}
+.tag-pink{
+    background-color: rgb(173, 74, 195);
+    border-radius: 9px;
+    padding: 2px;
+    margin-left: 20px;
+}
+h4{
+    margin-left: 20px;
+    justify-content: center;
+}
+p{
+    margin-left: 20px;
+}
+
+
+/* Styling for small profile image */
+.image-1{
+    width: 40px;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+h5{
+    height: 1px;
+
+}
+
+.user{
+    display: flex;
+    gap: 8px;
+
+}
+.social-icons{
+    padding: 20px;
+    font-weight: bold;
+
+
+}
+a{
+    color: black;
+    padding: 3px;
+    font-weight: bold;
+    font-size: 20px;
+}
+button{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 38px;
+    cursor: pointer;
+    border-radius:6px;
+    
+}
+
+
+button:hover{
+    background-color: brown;
+}
+
+ 
+
+/* Media queries */
+
+
+@media (max-width:767px){
+
+    .card{
+       background-color: rgb(161, 223, 18);
+       width:90%;
+    }
+    }
+    
+ @media (max-width:1023){
+
+        .card{
+            background-color: brown;
+            width:30%;
+
+        .card-body{
+            background-color: blueviolet;
+        }
+     }
+     
+     }
+     
